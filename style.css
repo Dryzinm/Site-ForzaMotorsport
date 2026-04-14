@@ -35,14 +35,26 @@ th, td {
 }
 
 nav a {
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #111;
     padding: 20px;
+    border-radius: 10px;
 }
 
 body {
@@ -61,4 +73,9 @@ table {
 img {
     display: block;
     margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
