@@ -44,3 +44,21 @@ nav a {
 main {
     padding: 20px;
 }
+
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+table {
+    margin: 20px auto;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
